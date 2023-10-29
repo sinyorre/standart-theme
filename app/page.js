@@ -1,5 +1,5 @@
 async function getWebsiteData() {
-    const res = await fetch(`http://192.168.1.34:8080/users/${process.env.USER_ID}/websites`)
+    const res = await fetch(`http://hekimrandevum-env.eba-md56hm3n.eu-central-1.elasticbeanstalk.com/users/${process.env.USER_ID}/websites`);
 
     if (!res.ok) {
         throw new Error('Failed to fetch data')
