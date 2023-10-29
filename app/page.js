@@ -21,6 +21,7 @@ export default async function Home() {
                     <div
                         className="flex flex-col justify-center items-center content-center bg-white border border-gray-200 rounded-lg shadow-xl w-full md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 p-8"
                     >
+                        <h1>Hello</h1>
                         <div className="flex flex-col md:flex-row md:w-3/4 w-full">
                             <div className="w-full md:w-3/12 px-4">
                                 <img src={image} alt=""
